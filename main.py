@@ -3,9 +3,9 @@ from flask import Flask
 app = Flask('__name__')
 
 
-@app.route('/test')
-def test():
-	return {'message': 'Hi there!'}
+@app.route('')
+def home():
+	return '<h1>Hello world!</h1>'
 
 
 if __name__ == '__main__':
